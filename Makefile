@@ -1,5 +1,5 @@
 TARGET = 1m-block
-SRC = main.c
+SRC = main.cpp
 
 all:
 	g++ -o $(TARGET) $(SRC) -lnetfilter_queue
